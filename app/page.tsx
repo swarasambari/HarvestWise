@@ -29,14 +29,12 @@ export default function Home() {
 
   return (
     <div
-      className="min-h-screen bg-gray-50 overflow-hidden relative"
-      style={{
-        backgroundImage: "url('/images/bg3.png')",
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-      }}
-    >
+  className="min-h-screen bg-gray-50 overflow-hidden relative bg-cover bg-fixed"
+  style={{
+    backgroundImage: "url('/images/bg3.png')",
+  }}
+>
+
       {/* Animated Background Elements
       <motion.div
         className="absolute top-40 right-40 opacity-60"
